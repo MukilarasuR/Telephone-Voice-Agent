@@ -10,7 +10,7 @@ logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 
-
+   
 class CSVLogger:
     def __init__(self):
         self.logs = []
