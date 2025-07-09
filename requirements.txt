@@ -1,0 +1,28 @@
+# Core dependencies
+asyncio
+numpy
+pyyaml
+
+# LiveKit
+livekit
+livekit-api
+
+# AI/ML
+openai
+torch
+torchaudio
+transformers
+
+# Audio processing
+pyaudio
+webrtcvad
+librosa
+
+# Testing
+pytest
+pytest-asyncio
+
+# Development
+black
+flake8
+mypy

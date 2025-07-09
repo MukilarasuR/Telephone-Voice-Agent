@@ -1,0 +1,9 @@
+{
+  "trunk": {
+    "name": "Telephone-Voice-Agent-Outbound",
+    "address": "telephone-voice-agent-outbound.pstn.twilio.com",  
+    "numbers": ["+19363123763"],                       
+    "auth_username": "Mukil-username",   
+    "auth_password": "Mukil-usernameMukil-username1"
+  }
+}

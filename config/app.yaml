@@ -1,0 +1,25 @@
+app:
+  name: "AI Voice Agent"
+  version: "1.0.0"
+  debug: true
+
+room:
+  default_name: "lara-ai-demo"
+  auto_join: true
+
+audio:
+  sample_rate: 16000
+  chunk_size: 1024
+  channels: 1
+  frame_duration_ms: 30
+
+ai:
+  model_name: "gpt-3.5-turbo"
+  max_tokens: 150
+  temperature: 0.7
+
+speech:
+  stt_provider: "openai"
+  tts_provider: "openai"
+  voice: "alloy"
+  speech_timeout_ms: 900
