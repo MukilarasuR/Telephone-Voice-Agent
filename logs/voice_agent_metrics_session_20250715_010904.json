@@ -1,0 +1,43 @@
+{
+  "session_info": {
+    "session_id": "session_20250715_010904",
+    "total_questions": 2,
+    "total_user_speaking_time": 5.5,
+    "average_user_speaking_time": 2.75,
+    "total_agent_reply_time": 6.0,
+    "average_agent_reply_time": 3.0,
+    "total_agent_idle_time": 0.0,
+    "average_agent_idle_time": 0.0,
+    "total_voice_agent_response_time_during_start_end_call": 394.493,
+    "session_start_time": 1752521972.104079,
+    "session_end_time": 1752522366.5972583
+  },
+  "interactions": [
+    {
+      "timestamp": "2025-07-15T01:09:33.170926",
+      "interaction_id": "demo_1_1752521973.170904",
+      "speech_start_time": 1752521973.170926,
+      "speech_end_time": 1752521975.670926,
+      "response_start_time": 1752521975.670926,
+      "agent_response_end_time": 1752521978.170926,
+      "user_speaking_time": 2.5,
+      "agent_reply_time": 2.5,
+      "user_response_waiting_time": 1.067,
+      "agent_idle_time_per_question": 0.0,
+      "session_id": "session_20250715_010904"
+    },
+    {
+      "timestamp": "2025-07-15T01:09:33.170944",
+      "interaction_id": "demo_2_1752521973.170904",
+      "speech_start_time": 1752521980.170926,
+      "speech_end_time": 1752521983.170926,
+      "response_start_time": 1752521983.170926,
+      "agent_response_end_time": 1752521986.670926,
+      "user_speaking_time": 3.0,
+      "agent_reply_time": 3.5,
+      "user_response_waiting_time": 2.0,
+      "agent_idle_time_per_question": 0.0,
+      "session_id": "session_20250715_010904"
+    }
+  ]
+}

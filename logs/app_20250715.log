@@ -1,0 +1,6 @@
+2025-07-15 00:55:12,904 - asyncio - DEBUG - __init__:631 - Using proactor: IocpProactor
+2025-07-15 00:55:15,998 - asyncio - ERROR - default_exception_handler:1871 - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000022FAA42A900>
+2025-07-15 00:55:15,998 - asyncio - ERROR - default_exception_handler:1871 - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x0000022FAA7C5190>, 380493.580473)])']
+connector: <aiohttp.connector.TCPConnector object at 0x0000022FAA42AA50>

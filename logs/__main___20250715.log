@@ -1,0 +1,25 @@
+2025-07-15 00:55:12,905 - __main__ - INFO - make_call:33 - Creating dispatch for agent asset_management_agent in room call-919363332539-380490
+2025-07-15 00:55:15,293 - __main__ - INFO - make_call:41 - Created dispatch: id: "AD_csQVxhPq5vma"
+agent_name: "asset_management_agent"
+room: "call-919363332539-380490"
+metadata: "+919363332539"
+state {
+  created_at: 1752521220418366675
+}
+
+2025-07-15 00:55:15,295 - __main__ - INFO - make_call:48 - Dialing +919363332539 to room call-919363332539-380490
+2025-07-15 00:55:15,988 - __main__ - INFO - make_call:60 - Created SIP participant: participant_id: "PA_EwtrS2nZ9CKK"
+participant_identity: "phone_user"
+room_name: "call-919363332539-380490"
+sip_call_id: "SCL_vzPQB69uJnBM"
+
+2025-07-15 00:55:15,992 - __main__ - INFO - make_outbound_call:82 - Outbound call initiated to +919363332539 in room call-919363332539-380490
+2025-07-15 00:55:15,993 - __main__ - INFO - make_outbound_call:86 - Voice agent metrics tracking is active
+2025-07-15 00:55:15,993 - __main__ - INFO - make_outbound_call:87 - Metrics will be saved in the following formats:
+2025-07-15 00:55:15,994 - __main__ - INFO - make_outbound_call:88 - - CSV: logs/voice_agent_metrics_sessionXXX.csv
+2025-07-15 00:55:15,994 - __main__ - INFO - make_outbound_call:89 - - JSON: logs/voice_agent_metrics_sessionXXX.json
+2025-07-15 00:55:15,995 - __main__ - INFO - make_outbound_call:90 - - Human-readable table: printed to console at call end
+2025-07-15 00:55:15,995 - __main__ - INFO - make_outbound_call:93 - Access metrics via:
+2025-07-15 00:55:15,996 - __main__ - INFO - make_outbound_call:94 - - http://localhost:8000/metrics (JSON)
+2025-07-15 00:55:15,997 - __main__ - INFO - make_outbound_call:95 - - http://localhost:8000/download-csv (CSV download)
+2025-07-15 00:55:15,997 - __main__ - INFO - make_outbound_call:96 - - http://localhost:8000/download-json (JSON download)
